@@ -1,0 +1,60 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding-inline: 5%;
+}
+
+.container.dark {
+	background-color: #282c34;
+	color: white;
+}
+
+.user-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.user-box img {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+}
+
+.user-box h1 {
+	text-align: center;
+}
+
+.container p {
+	text-align: center;
+}
+
+.container button {
+	margin: 10px;
+	background-color: #61dafb;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.container button:hover {
+	background-color: #2e5371;
+	color: white;
+}
+
+.container button img {
+	width: 30px;
+	height: 30px;
+}
